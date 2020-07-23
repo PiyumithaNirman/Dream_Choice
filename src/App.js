@@ -1,12 +1,28 @@
 import React, { Component } from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './Components/navigation';
+import {BrowserRouter as Router} from 'react-router-dom';
+
+import Navigation from './Components/navigation'
+import Footer from './Components/footer'
+import Loging from './Components/loging'
 
 
 class App extends Component {
   render() {
     return (
-      <Navigation />
+
+    <Router>
+    <div>
+    <Navigation />
+          <hr />
+          <Loging />
+      {/* <Switch> */}
+        {/* <Route exact path="/" component={App} /> */}
+        {/* <Route path="/users" component={Loging} /> */}
+      {/* </Switch> */}
+       <Footer /> 
+    </div>
+  </Router>
+       
     );
   }
 }
