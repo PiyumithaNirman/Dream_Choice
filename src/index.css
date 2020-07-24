@@ -3,3 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#footer{
+  background-color:#3f3838;
+  overflow: auto;
+}

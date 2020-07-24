@@ -14,17 +14,17 @@ class navigation extends React.Component {
             <li className="nav-item"><a href="" class="nav-link">Features</a></li>
             <li className="nav-item"><a href="" className="nav-link">Pircing</a></li>
             <li className="nav-item"><a href="" className="nav-link">Disable</a></li>
-          </ul>  
-        <form class="form-inline my-2 my-lg-0 p-2 ml-auto">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-       </form>
-       <ul className="navbar-nav p-2 ml-auto">
+          </ul>
+          <form class="form-inline my-2 my-lg-0 p-2 ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <ul className="navbar-nav p-2 ml-auto">
             <li className="nav-item"><a href="" class="nav-link">Features</a></li>
             <li className="nav-item"><a href="" className="nav-link">Pircing</a></li>
           </ul>
         </div>
-      </nav>     
+      </nav>
     );
   }
 }
