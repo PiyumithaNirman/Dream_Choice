@@ -5,38 +5,38 @@ import 'bootstrap/dist/js/bootstrap.js';
 class footer extends React.Component {
   render() {
     return (
-      <footer id="footer" >
+      <footer  class="bg-dark">
 
         <div class="container">
 
           <div class="row text-center d-flex justify-content-center pt-5 mb-3">
          
             <div class="col-md-2 mb-3 ">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!">About us</a>
+              <h6 class="text-uppercase font-weight-bold text-white">
+                <a href="#!">About Us</a>
               </h6>
             </div>
 
             <div class="col-md-2 mb-3">
-              <h6 class="text-uppercase font-weight-bold">
+              <h6 class="text-uppercase font-weight-bold text-white">
                 <a href="#!">Products</a>
               </h6>
             </div>
 
             <div class="col-md-2 mb-3">
-              <h6 class="text-uppercase font-weight-bold">
+              <h6 class="text-uppercase font-weight-bold text-white">
                 <a href="#!">Awards</a>
               </h6>
             </div>
 
             <div class="col-md-2 mb-3">
-              <h6 class="text-uppercase font-weight-bold">
+              <h6 class="text-uppercase font-weight-bold text-white">
                 <a href="#!">Help</a>
               </h6>
             </div>
 
             <div class="col-md-2 mb-3">
-              <h6 class="text-uppercase font-weight-bold">
+              <h6 class="text-uppercase font-weight-bold text-white">
                 <a href="#!">Contact</a>
               </h6>
             </div>
@@ -44,7 +44,7 @@ class footer extends React.Component {
           </div>
 
           <ul class="list-unstyled list-inline text-center py-2">
-            <li class="list-inline-item">
+            <li class="list-inline-item text-white">
               <h5 class="mb-1">Register for free</h5>
             </li>
             <li class="list-inline-item">
@@ -55,35 +55,35 @@ class footer extends React.Component {
           <ul class="list-unstyled list-inline text-center">
             <li class="list-inline-item">
               <a class="btn-floating btn-fb mx-1">
-                <i class="fab fa-facebook-f"> </i>
+                <i class="fab fa-facebook-f text-white"> </i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn-floating btn-tw mx-1">
-                <i class="fab fa-twitter"> </i>
+                <i class="fab fa-twitter text-white"> </i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn-floating btn-gplus mx-1">
-                <i class="fab fa-google-plus-g"> </i>
+                <i class="fab fa-google-plus-g text-white"> </i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn-floating btn-li mx-1">
-                <i class="fab fa-linkedin-in"> </i>
+                <i class="fab fa-linkedin-in text-white"> </i>
               </a>
             </li>
             <li class="list-inline-item">
               <a class="btn-floating btn-dribbble mx-1">
-                <i class="fab fa-dribbble"> </i>
+                <i class="fab fa-dribbble text-white"> </i>
               </a>
             </li>
           </ul>
 
         </div>
 
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-              <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+              <a href="https://dreamchoice.com/"> dreamchoice.com</a>
         </div>
 
       </footer>
