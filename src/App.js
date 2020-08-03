@@ -3,6 +3,7 @@ import {Route,Link, BrowserRouter} from 'react-router-dom';
 
 import HomeScreen from './Components/homeScreen';
 import RegisterScreen from './Components/register';
+import LogingScreen from './Components/login'
 
 class App extends Component {
   render() {
@@ -26,13 +27,14 @@ class App extends Component {
           </form>
           
           <ul className="navbar-nav p-2 ml-auto">
+            <Link to="/loging" className="nav-item" class="nav-link" >Login</Link>
             <Link to="/register" className="nav-item" class="nav-link" >Sign Up</Link>
-            <li className="nav-item"><a href="" className="nav-link">Login</a></li>
           </ul>
         </div>          
       </nav>      
 	  <main className="main">
           <div className="content">
+            <Route path="/loging" component={LogingScreen} />
             <Route path="/register" component={RegisterScreen} />
             <Route path="/" exact={true} component={HomeScreen} />
           </div>

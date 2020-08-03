@@ -8,3 +8,19 @@ body {
   background-color:#635d5d;
   overflow: auto;
 }
+
+#cover {
+  background: #222 url('https://unsplash.it/1920/1080/?random') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#cover-caption {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
