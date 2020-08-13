@@ -1,5 +1,6 @@
 const express = require('express');
 const registerRoute = express.Router();
+const mongoose = require('mongoose');
 
 let Register = require('./register.model');
 
